@@ -13,7 +13,7 @@ RUN /opt/miniconda3/bin/conda init zsh
 
 
 # Install dependencies
-COPY tudat-bundle/environment.yaml environment.yaml
+COPY environment.yaml environment.yaml
 RUN /opt/miniconda3/bin/conda env create -f environment.yaml
 
 

@@ -1,0 +1,22 @@
+name: tudat-bundle
+channels:
+  - conda-forge
+  - tudat-team
+dependencies:
+  - eigen
+  - boost-cpp
+  - tudat-resources
+  - sofa-cmake
+  - nrlmsise-00
+  - cspice-cmake
+  - python=3.11
+  - pybind11
+  - pybind11-abi
+  # Python dependencies
+  - numpy
+  - pytest
+  - pandas     # for tudatpy.io
+  - matplotlib # for tudatpy.plotting
+  - tqdm       # for tudatpy.trajectory_design.porkchop
+  - astropy    # for tudatpy.data.mpc
+  - astroquery # for tudatpy.data.mpc
